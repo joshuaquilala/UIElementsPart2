@@ -20,15 +20,15 @@ class AlbumsAct : AppCompatActivity() {
             var songsToBeDisplayed = arrayListOf<String>()
             var uri: String = ""
             if (position == 0) {
-                uri = "@drawable/divide_cover"
+                uri = "@drawable/bastille_cover"
                 songsToBeDisplayed.clear()
                 songsToBeDisplayed.addAll(resources.getStringArray(R.array.Bastille))
             } else if (position == 1) {
-                uri = "@drawable/abbey_road_cover"
+                uri = "@drawable/dax_cover"
                 songsToBeDisplayed.clear()
                 songsToBeDisplayed.addAll(resources.getStringArray(R.array.Dax))
             } else {
-                uri = "@drawable/scorpion_cover"
+                uri = "@drawable/gloc9_cover"
                 songsToBeDisplayed.clear()
                 songsToBeDisplayed.addAll(resources.getStringArray(R.array.Gloc_9))
             }
