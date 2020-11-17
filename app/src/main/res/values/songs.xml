@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="Bastille">
+        <item>  Quarter Past Midnight</item>
+        <item>Bad Decisions</item>
+        <item>The Waves</item>
+        <item>Million Pieces</item>
+        <item>Doom Days</item>
+    </string-array>
+    <string-array name="Dax">
+        <item>Joker</item>
+        <item>Dear God</item>
+        <item>My Last Words</item>
+        <item>Godzilla</item>
+        <item>Unforgivable</item>
+    </string-array>
+    <string-array name="Gloc_9">
+        <item>Halik</item>
+        <item>Upuan</item>
+        <item>Martilyo</item>
+        <item>Dungaw</item>
+        <item>Ayoko na</item>
+    </string-array>
+</resources>
+
