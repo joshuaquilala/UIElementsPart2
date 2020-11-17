@@ -35,6 +35,8 @@ class AlbumsAct : AppCompatActivity() {
             intent.putStringArrayListExtra("songs", songsToBeDisplayed )
             intent.putExtra("imageUri",  uri)
             intent.putExtra("position", position)
+
+            
             startActivity(intent)
 
 
