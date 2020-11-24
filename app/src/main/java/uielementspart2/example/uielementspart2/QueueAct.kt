@@ -41,7 +41,6 @@ class QueueAct : AppCompatActivity() {
         registerForContextMenu(queuedSongsListView)
     }
 
-    //Context Menu
     override fun onCreateContextMenu(
             menu: ContextMenu?,
             v: View?,

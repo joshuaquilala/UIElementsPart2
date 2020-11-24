@@ -28,7 +28,6 @@ class AlbumDetails : AppCompatActivity() {
         var res = getResources().getDrawable(imageResource)
         AlbumCover.setImageDrawable(res)
 
-
         val adapter = ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, songsArray)
         albumDetailsListView.adapter = adapter
 
