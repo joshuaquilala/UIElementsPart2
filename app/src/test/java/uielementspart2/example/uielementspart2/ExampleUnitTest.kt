@@ -1,4 +1,4 @@
-package com.example.uielementspart2
+package uielementspart2.example.uielementspart2
 
 import org.junit.Test
 

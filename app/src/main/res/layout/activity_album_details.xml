@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".AlbumDetails">
+    tools:context="uielementspart2.example.uielementspart2.AlbumDetails">
 
     <ImageView
         android:id="@+id/albumCover"

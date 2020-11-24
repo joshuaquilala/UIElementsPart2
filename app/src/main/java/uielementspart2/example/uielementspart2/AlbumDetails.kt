@@ -1,4 +1,4 @@
-package com.example.uielementspart2
+package uielementspart2.example.uielementspart2
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -6,6 +6,7 @@ import android.util.Log
 import android.widget.ArrayAdapter
 import android.widget.ImageView
 import android.widget.ListView
+import com.example.uielementspart2.R
 
 class AlbumDetails : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -16,9 +17,7 @@ class AlbumDetails : AppCompatActivity() {
         val uri = intent.getStringExtra("imageUri")
         val songsToBeDisplayed = intent.getStringArrayListExtra("songs")
 
-
         var songsArray = songsToBeDisplayed!!.toTypedArray()
-
 
         val AlbumCover = findViewById<ImageView>(R.id.albumCover)
 

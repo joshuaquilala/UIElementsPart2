@@ -1,4 +1,4 @@
-package com.example.uielementspart2
+package uielementspart2.example.uielementspart2
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

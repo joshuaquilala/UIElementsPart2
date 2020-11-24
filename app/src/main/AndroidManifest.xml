@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.UIElementsPart2Challenge">
-        <activity android:name="com.example.uielementspart2.AlbumDetails"></activity>
+        <activity android:name="com.example.uielementspart2.uielementspart2.example.uielementspart2.AlbumDetails"></activity>
         <activity android:name="com.example.uielementspart2.QueueAct" />
         <activity android:name="com.example.uielementspart2.AlbumsAct" />
         <activity android:name="com.example.uielementspart2.main_activity">
